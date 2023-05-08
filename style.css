@@ -97,8 +97,16 @@ hr{
 .btn-left{
     background-color: #F4A9A6;
 }
+.btn-left:hover{
+    background-color: #e77672;
+    cursor: pointer;
+}
 .btn-right{
     background-color: #B7CDE8;
+}
+.btn-right:hover{
+    background-color: #81aadc;
+    cursor: pointer;
 }
 .btn:hover{
     width: 5px .3s;
@@ -337,6 +345,37 @@ hr{
     width: 600px;
     margin-top: 30px;
 }
+
+/* foods  */
+.foods{
+    margin-top: 20px;
+}
+.food{
+    background-color: rgba(0, 0, 0, 0.263);
+}
+#food-btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+#food-btn button{
+    background-color: transparent;
+    font-size: 16px;
+    color: rgba(64,33,22,255);
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px;
+}
+#food-btn button:hover{
+    border-color: black;
+    cursor: pointer;
+}
+
+
 /* companies */
 #companies{
     display: flex;
@@ -503,7 +542,11 @@ hr{
     padding: 5px;
     border: none;
     border-radius: 15px;
-    background-color: #F48885;
+    background-color: #f98682;
     font-weight: 700;
     color: white;
+}
+.form button:hover{
+    background-color: #ed5c57;
+    cursor: pointer;
 }
